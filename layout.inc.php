@@ -9,7 +9,7 @@
  */
 
 $GLOBALS['cfg']['NaviWidth']                = '250';
-$GLOBALS['cfg']['FontFamily']               = 'Open Sans';
+$GLOBALS['cfg']['FontFamily']               = '"Open Sans",Arial, Helvetica, Verdana';
 $GLOBALS['cfg']['FontFamilyLight']          = '"Open Sans Light"';
 $GLOBALS['cfg']['FontFamilyFixed']          = 'Consolas, "Courier New", Courier, Monospace, "Lucida Grande"';
 
@@ -23,7 +23,7 @@ $scheme                                     = "win";
 switch($scheme)
 {
 	case "win":
-		
+
 		$GLOBALS['cfg']['NaviColor']                = '#EEEEEE';
 		$GLOBALS['cfg']['NaviBackground']           = '#377796';
 		$GLOBALS['cfg']['NaviBackgroundLight']      = '#428EB4';
@@ -50,9 +50,9 @@ switch($scheme)
 		$GLOBALS['cfg']['BgTwo']                    = '#FFFFFF';
 		$GLOBALS['cfg']['BlueHeader']               = '#3A7EAD';
 		break;
-	
+
 	case "teal":
-		
+
 		$GLOBALS['cfg']['NaviColor']                = '#FFFFFF';
 		$GLOBALS['cfg']['NaviBackground']           = '#004D60';
 		$GLOBALS['cfg']['NaviBackgroundLight']      = '#04627C';
@@ -79,9 +79,9 @@ switch($scheme)
 		$GLOBALS['cfg']['BgTwo']                    = '#FFFFFF';
 		$GLOBALS['cfg']['BlueHeader']               = '#3A7EAD';
 		break;
-	
+
 	case "redmond":
-	
+
 		$GLOBALS['cfg']['NaviColor']                = '#FFFFFF';
 		$GLOBALS['cfg']['NaviBackground']           = '#780505';
 		$GLOBALS['cfg']['NaviBackgroundLight']      = '#A10707';
@@ -108,9 +108,9 @@ switch($scheme)
 		$GLOBALS['cfg']['BgTwo']                    = '#FFFFFF';
 		$GLOBALS['cfg']['BlueHeader']               = '#3A7EAD';
 		break;
-		
+
 	case "blueeyes":
-	
+
 		$GLOBALS['cfg']['NaviColor']                = '#FFFFFF';
 		$GLOBALS['cfg']['NaviBackground']           = '#377796';
 		$GLOBALS['cfg']['NaviBackgroundLight']      = '#428EB4';
@@ -137,9 +137,9 @@ switch($scheme)
 		$GLOBALS['cfg']['BgTwo']                    = '#FFFFFF';
 		$GLOBALS['cfg']['BlueHeader']               = '#3A7EAD';
 		break;
-		
+
 	case "mono":
-	
+
 		$GLOBALS['cfg']['NaviColor']                = '#FFFFFF';
 		$GLOBALS['cfg']['NaviBackground']           = '#666666';
 		$GLOBALS['cfg']['NaviBackgroundLight']      = '#999999';
