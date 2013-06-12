@@ -87,7 +87,6 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
 #pma_navigation_tree {
     margin: 5px 0 0;
     margin-<?php echo $left; ?>: 10px;
-    color: #444;
 }
 #pma_navigation_tree a {
     color: <?php echo $GLOBALS['cfg']['NaviColor']; ?>;
@@ -137,8 +136,6 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
 }
 #pma_navigation_tree div.block i { /* Top and right segments for the tree element connections */
     display: block;
-    border-<?php echo $left; ?>: 1px solid #666;
-    border-bottom: 1px solid #666;
 }
 #pma_navigation_tree div.block i.first { /* Removes top segment */
     border-<?php echo $left; ?>: 0;
@@ -148,7 +145,6 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
     height: 0.75em;
     bottom: 0;
     <?php echo $left; ?>: 0.75em;
-    border-<?php echo $left; ?>: 1px solid #666;
 }
 #pma_navigation_tree div.block a,
 #pma_navigation_tree div.block u {
@@ -163,7 +159,15 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
     <?php echo $left; ?>: 0;
     margin-<?php echo $left; ?>: -7px;
 }
-#pma_navigation_tree div.throbber img {
+#pma_navigation_tree div.block .ic_s_db{
+    background-position: 0 -1040px !important;
+}
+#pma_navigation_tree div.block .ic_b_plus{
+    background-position: 0 -849px !important;
+}
+#pma_navigation_tree div.block .ic_b_browse{
+    background-position: 0 -1120px !important;
+}#pma_navigation_tree div.throbber img {
     top: 2px;
     <?php echo $left; ?>: 2px;
 }
@@ -176,12 +180,12 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
     padding-<?php echo $left; ?>: 0.3em;
 }
 #pma_navigation_tree .list_container {
-    border-<?php echo $left; ?>: 1px solid #666;
+    border-<?php echo $left; ?>: 1px solid #fff;
     margin-<?php echo $left; ?>: 0.75em;
     padding-<?php echo $left; ?>: 0.75em;
 }
 #pma_navigation_tree .last > .list_container {
-    border-<?php echo $left; ?>: 0 solid #666;
+    border-<?php echo $left; ?>: 0 solid #fff;
 }
 
 /* Fast filter */
@@ -189,7 +193,7 @@ li.fast_filter {
     padding-<?php echo $left; ?>: 0.75em;
     margin-<?php echo $left; ?>: 0.75em;
     padding-<?php echo $right; ?>: 35px;
-    border-<?php echo $left; ?>: 1px solid #666;
+    border-<?php echo $left; ?>: 1px solid #fff;
 }
 li.fast_filter input {
     padding-<?php echo $right; ?>: 1.7em;
